@@ -33,5 +33,5 @@ messwerte.remove(groesster_wert)
 #Mittelwert bilden und zahlen runden
 mittelwert = sum(messwerte) /len(messwerte)
 mittelwert= round(mittelwert)
-print("Der Mittelwert ist", mittelwert ,"Grad +- 0,3")
+print("Der Temperatur beträgt", mittelwert ,"Grad Celcius +- 0,3")
 
